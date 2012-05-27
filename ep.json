@@ -1,0 +1,12 @@
+{
+  "parts": [
+    {
+      "name": "speechinput",
+      "hooks": {
+        "eejsBlock_editbarMenuLeft": "ep_speechinput/hooks",
+        "eejsBlock_scripts": "ep_speechinput/hooks",
+        "eejsBlock_styles": "ep_speechinput/hooks"
+      }
+    }
+  ]
+}

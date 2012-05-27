@@ -1,0 +1,24 @@
+#insertSpeechInput {
+	position: relative;
+	overflow: hidden;
+	display: none;
+}
+
+#insertSpeechInput a {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAQCAYAAAAvf+5AAAAANUlEQVQokWP4//8/AwinpaX9x4Zh8gwDqBDGwacQRA+0QmIwDRTicx+yO0mPGXQN6OLUVwgAoh2JuCaqzloAAAAASUVORK5CYII=");
+	background-repeat: no-repeat;
+	background-position: 9px 5px;
+}	
+
+#insertSpeechInput input {
+	position: absolute;
+	right: 0;
+	height: 28px;
+	top: 0;
+	cursor: inherit;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+	opacity: 0;
+	outline: 0px;
+}
